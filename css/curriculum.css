@@ -1,0 +1,27 @@
+.home-cv-languages > a{
+    background-color: white;
+    color: #111111;
+    border: none;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.disabled{
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.home-attention{
+    padding: 15px;
+}
+
+.home-cv > embed{
+    width: 600px;
+    height: 500px;
+    border: white 5px solid;
+}
