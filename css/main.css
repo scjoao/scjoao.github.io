@@ -7,23 +7,27 @@
 }
 
 body{
-    background-color: #111111;
+    /*background-color: #111111;
     color: white;
-    /*background-image: url(../images/background.png);
+    background-image: url(../images/background.png);
     -webkit-filter: blur(5px);
     filter: blur(5px);*/
+    color: white;
+    background-color: rgba(13, 14, 14, 1);
 }
 
 .menu-content{
     color: black;
-    background-color: white;
+    /*background-color: white;*/
+    color: #ffffff;
+    background-color: rgb(24, 26, 27);
     padding: 15px;
     display: flex;
     flex-direction: row-reverse;
 }
 
 .menu-content > ul > li{
-    color: black;
+    color: #ffffff;
     font-size: 18px;
     padding-right: 15px;
     display: inline;
@@ -70,8 +74,10 @@ body{
 }
 
 .footer-content{
-    color: black;
-    background-color: white;
+    /*color: black;
+    background-color: white;*/
+    color: #ffffff;
+    background-color: rgb(24, 26, 27);
     padding: 15px;
     display: flex;
     flex-direction: row;
